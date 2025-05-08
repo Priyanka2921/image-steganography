@@ -36,11 +36,3 @@ python src/app.py
 ```
 
 Follow the prompts to either encode a message into an image or decode a message from a steganographed image.
-
-## Contributing
-
-Feel free to submit issues or pull requests for improvements or bug fixes. 
-
-## License
-
-This project is licensed under the MIT License.
