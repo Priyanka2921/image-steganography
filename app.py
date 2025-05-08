@@ -7,7 +7,8 @@ def main():
     if choice.lower() == 'e':
         image_path = input("Enter the path to the image: ")
         secret_message = input("Enter the secret message: ")
-        encode_image(image_path, secret_message)
+        output_path = input("Enter the path to save the encoded image: ")
+        encode_image(image_path, secret_message, output_path)
         print("Message encoded successfully!")
     elif choice.lower() == 'd':
         image_path = input("Enter the path to the steganographed image: ")
